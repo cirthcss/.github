@@ -1,0 +1,43 @@
+name: Bug report
+description: Report a reproducible defect in an organization project.
+title: "[Bug]: "
+labels:
+  - "🐛 bug"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search open and closed issues before reporting a new bug. Do not include secrets or private production data.
+  - type: textarea
+    id: current
+    attributes:
+      label: Current behavior
+      description: What happens, and where does it happen?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should happen instead?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: Provide the smallest repository, code sample, or steps that reproduce the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include relevant versions, browser, operating system, and package manager.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add screenshots, logs, or related issues when useful.

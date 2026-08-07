@@ -1,0 +1,6 @@
+{
+  "name": "Cirth CodeQL",
+  "description": "Run weekly and pull-request CodeQL analysis for JavaScript and TypeScript.",
+  "iconName": "octicon shield-check",
+  "categories": ["Code scanning", "JavaScript", "TypeScript"]
+}

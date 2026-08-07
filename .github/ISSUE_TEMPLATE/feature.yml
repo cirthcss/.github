@@ -1,0 +1,89 @@
+name: Feature or enhancement
+description: Propose a focused new capability or improvement.
+title: "[Proposal]: "
+labels:
+  - "🧭 decision needed"
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Which concrete user or contributor problem needs solving?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed outcome
+      description: Describe the desired behavior without over-prescribing implementation.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      description: Which workarounds or alternative designs did you consider?
+    validations:
+      required: true
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: Compatibility and scope
+      description: Note public API, migration, accessibility, security, or maintenance implications.
+    validations:
+      required: false
+name: Reusable Node CI
+
+on:
+  workflow_call:
+    inputs:
+      node-version:
+        description: Node.js version used by the quality job.
+        required: false
+        type: string
+        default: "24"
+      working-directory:
+        description: Directory containing package.json and package-lock.json.
+        required: false
+        type: string
+        default: "."
+      run-tests:
+        description: Run the npm test script when it exists.
+        required: false
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+jobs:
+  quality:
+    name: Lint, test, and build
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ${{ inputs.working-directory }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: ${{ inputs.node-version }}
+          cache: npm
+          cache-dependency-path: ${{ inputs.working-directory }}/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint --if-present
+
+      - name: Test
+        if: inputs.run-tests
+        run: npm test --if-present
+
+      - name: Build
+        run: npm run build --if-present

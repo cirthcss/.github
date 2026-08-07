@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Cirth framework support
+    url: https://github.com/cirthcss/cirth/issues
+    about: Ask questions or report issues for the Cirth CSS framework.
+  - name: Security report
+    url: https://github.com/cirthcss/cirth/security
+    about: Review the security policy before sharing vulnerability details.

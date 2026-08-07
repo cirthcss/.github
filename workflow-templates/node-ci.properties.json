@@ -1,0 +1,6 @@
+{
+  "name": "Cirth Node CI",
+  "description": "Install, lint, test, and build an npm project with the shared Cirth workflow.",
+  "iconName": "octicon check-circle",
+  "categories": ["JavaScript", "TypeScript"]
+}
