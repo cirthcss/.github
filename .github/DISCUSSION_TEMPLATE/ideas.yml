@@ -1,0 +1,52 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing an idea! The strongest proposals start from a **problem or use case**, not a solution — tell us what you're trying to do before what you think should be built.
+
+  - type: textarea
+    attributes:
+      label: Problem or use case
+      description: What are you trying to do? What's missing, or getting in the way?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Desired outcome
+      description: What would "solved" look like?
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Proposed solution (optional)
+      description: If you have one in mind, sketch it out — markup, a token, a class name, anything.
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Alternatives or workarounds considered
+      description: What have you already tried, or worked around, to get by without this?
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Examples from other tools
+      description: Links or descriptions of how another library, framework, or site handles this.
+    validations:
+      required: false
+
+  - type: dropdown
+    attributes:
+      label: Would you be interested in contributing?
+      description: No pressure either way — this just helps with planning.
+      options:
+        - Not right now, just proposing
+        - I could help with implementation
+        - I could help with documentation
+        - I could help with both
+    validations:
+      required: false
