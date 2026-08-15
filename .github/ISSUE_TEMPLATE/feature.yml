@@ -3,6 +3,7 @@ description: Propose a focused new capability or improvement.
 title: "[Proposal]: "
 labels:
   - "🧭 decision needed"
+type: "🚀 feature"
 body:
   - type: textarea
     id: problem
