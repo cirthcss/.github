@@ -1,38 +1,82 @@
-# Community Code of Conduct
+# Cirth Code of Conduct
 
-## Our commitment
+Cirth is an open-source project built through technical discussion and
+collaboration. Disagreement is welcome, including direct criticism of code,
+design, documentation, and project decisions. Abuse directed at people is not.
 
-We want participation in Cirth projects to be safe, respectful, and useful for
-everyone. Contributors, maintainers, and community members are expected to act
-with empathy, patience, and professional care in every project space.
+## How we work together
 
-## Expected behavior
+- Discuss the work, not another person's worth, motives, or character.
+- Explain technical criticism clearly and give others room to clarify or
+  correct mistakes.
+- Keep issues, pull requests, and discussions relevant to the project.
+- When a factual claim affects a technical decision, link to a source, test, or
+  other evidence when reasonably possible.
+- Respect a clear request to stop an unwanted interaction.
 
-- Be respectful when reviewing ideas, code, documentation, and design choices.
-- Critique the work rather than the person who produced it.
-- Assume good intent while asking for clarification when context is missing.
-- Welcome contributors with different backgrounds and levels of experience.
-- Keep discussions focused, constructive, and relevant to the project.
-- Respect privacy and do not publish another person's private information.
+Missing a source is normally a documentation or review problem, not a Code of
+Conduct violation. Maintainers may still ask for evidence before accepting a
+claim or contribution.
 
 ## Unacceptable behavior
 
-Harassment, threats, discriminatory language, sexualized attention, personal
-attacks, deliberate intimidation, sustained disruption, and publishing private
-information are not acceptable. Spam, trolling, and bad-faith participation may
-also be moderated.
+The following behavior is not tolerated:
 
-## Enforcement
+- insults, name-calling, humiliation, or personal attacks;
+- harassment, intimidation, or repeated unwanted contact;
+- discriminatory slurs or attacks based on a person's identity or background;
+- sexualized language, imagery, or attention directed at another person;
+- threats of violence or encouragement of harm;
+- publishing or using another person's private information without permission;
+- impersonation or deliberate deception intended to evade moderation;
+- targeted provocation, trolling, spam, or repeatedly derailing a conversation
+  after being asked to stop.
 
-Maintainers may edit or remove content, close or lock discussions, reject
-contributions, or temporarily or permanently restrict participation when this
-code is violated. Responses should be proportionate, documented privately when
-possible, and centered on community safety.
+Strong criticism, disagreement, or rejecting a contribution is not by itself a
+violation when it remains focused on the work. Frustration does not excuse
+abusive behavior.
 
-To report conduct involving a public discussion, contact the organization owner
-through [their GitHub profile](https://github.com/ricpastori) without posting
-sensitive details publicly. Immediate threats should be reported to the
-appropriate local authorities or platform safety team.
+## Moderation and consequences
 
-This code applies in organization repositories, issue trackers, pull requests,
-project boards, and other spaces represented as part of Cirth.
+Maintainers may edit or remove content, lock conversations, reject
+contributions, or restrict participation when this Code of Conduct is violated.
+
+Responses depend on severity and context:
+
+- a minor or first-time violation may receive a clear warning;
+- insults and personal attacks may be removed immediately and may result in a
+  warning or restriction;
+- repeated behavior may result in a temporary or permanent restriction;
+- threats, severe harassment, discriminatory abuse, or disclosure of private
+  information may result in an immediate ban and a report to GitHub or the
+  appropriate authorities.
+
+Maintainers do not have to apply every step in order. Moderation decisions
+should be based on behavior, context, and impact—not on whether someone agrees
+with a maintainer or project decision.
+
+## Reporting
+
+Report a possible violation privately to the Cirth maintainers at
+[hello@ricpastori.com](mailto:hello@ricpastori.com). Do not post sensitive
+details in a public issue, pull request, or discussion. Include relevant links
+or context and describe any immediate safety concern.
+
+Reports will be reviewed as promptly and confidentially as reasonably possible.
+If the report concerns the organization owner or conduct that violates GitHub's
+policies, use [GitHub's private abuse-reporting channel][github-report-abuse].
+Immediate threats to personal safety should be reported to the appropriate
+local authorities.
+
+## Scope
+
+This Code of Conduct applies to Cirth repositories, issues, pull requests,
+discussions, project boards, and other official community spaces. It also
+applies when someone officially represents Cirth in public, online, or at an
+event.
+
+Conduct outside these spaces is not covered unless it directly affects safety
+within the Cirth community or occurs while someone is officially representing
+the project.
+
+[github-report-abuse]: https://support.github.com/contact/report-abuse
