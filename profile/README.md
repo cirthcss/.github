@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cirthcss/cirth/master/docs/public/logo_brand_app_dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cirthcss/cirth/master/docs/public/logo_brand_app.svg">
-    <img alt="Cirth" src="https://raw.githubusercontent.com/cirthcss/cirth/master/docs/public/logo_brand_app.svg" width="112" height="112">
+    <img alt="Cirth" src="https://raw.githubusercontent.com/cirthcss/cirth/master/docs/public/logo_brand.svg" width="112" height="112">
   </picture>
 </p>
 
